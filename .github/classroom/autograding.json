@@ -13,7 +13,7 @@
     {
       "name": "Run ctest",
       "setup": "",
-      "run": ".scripts/dr.sh \"cd build; ctest -N; ctest --output-on-failure\"",
+      "run": ".scripts/dr.sh \"cd build; ctest -N; ctest --output-on-failure;\"",
       "input": "",
       "output": "",
       "comparison": "included",
