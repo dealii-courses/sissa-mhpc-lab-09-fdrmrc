@@ -1,0 +1,21 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build${env:BUILD_POSTFIX}",
+    "cmake.defaultVariants": {
+        "configOptions": {
+            "default": "dealii-app",
+            "description": "Default build option for app",
+            "choices": {
+                "dealii-app": {
+                    "short": "Build deal.II App",
+                    "long": "Options to build deal.II App",
+                }
+            }
+        }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.inst": "cpp",
+        "*.inst.in": "cpp",
+        "*.h": "cpp"
+    }
+}
