@@ -1,7 +1,7 @@
 #include <deal.II/base/utilities.h>
 
 #include "poisson.h"
-
+#include "linear_elasticity.h"
 /**
  * \mainpage Adaptive FEM for Poisson problem
  *
@@ -38,9 +38,9 @@ main(int argc, char **argv)
       else
         deallog.depth_console(0);
 
-      Poisson<2> laplace_problem;
-      laplace_problem.initialize(par_name);
-      laplace_problem.run();
+      LinearElasticity<2> linear_elasticity_problem;
+      linear_elasticity_problem.initialize(par_name);
+      linear_elasticity_problem.run();
     }
   catch (std::exception &exc)
     {
