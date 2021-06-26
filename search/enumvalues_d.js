@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['values_20880',['values',['http://www.dealii.org/developer/doxygen/deal.II/classMatrixFree.html#a751b5f06534d52773eba384d2c866a15af09cc7ee3a9a93273f4b80601cafb00c',1,'MatrixFree']]],
-  ['values_5fall_5ffaces_20881',['values_all_faces',['http://www.dealii.org/developer/doxygen/deal.II/classMatrixFree.html#a751b5f06534d52773eba384d2c866a15a108449c0466dc01a217d1ab2f99e5d5c',1,'MatrixFree']]]
+  ['real_5fpart_21894',['real_part',['http://www.dealii.org/developer/doxygen/deal.II/namespaceinternal_1_1DataOutImplementation.html#ad32c0c38e9f7904a1c674b90e6474db9a5dd4444acabca356079d7f846aba9f04',1,'internal::DataOutImplementation']]],
+  ['row_5fmajor_21895',['row_major',['http://www.dealii.org/developer/doxygen/deal.II/namespaceMatrixTableIterators.html#a071affcab0c2e4302df96f2d1540bd08a641fabb8e5e7d1d0333e2c9c384f959c',1,'MatrixTableIterators']]]
 ];

@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('main_8cc_source.html',''); initResizab
 <a href="main_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="codeRef" href="http://www.dealii.org/developer/doxygen/deal.II/include_2deal_8II_2base_2utilities_8h.html">deal.II/base/utilities.h</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="poisson_8h.html">poisson.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="linear__elasticity_8h.html">linear_elasticity.h</a>&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">   25</a></span>&#160;<a class="code" href="main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv)</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
@@ -123,9 +123,9 @@ $(document).ready(function(){initNavTree('main_8cc_source.html',''); initResizab
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="codeRef" href="http://www.dealii.org/developer/doxygen/deal.II/logstream_8h.html#ac643e79bd992f1a9bd0dca5b9f2859fb">deallog</a>.<a class="codeRef" href="http://www.dealii.org/developer/doxygen/deal.II/classLogStream.html#a8028e970ad8388596d625ed463894e98">depth_console</a>(0);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <a class="code" href="class_poisson.html">Poisson&lt;2&gt;</a> laplace_problem;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      laplace_problem.<a class="code" href="class_poisson.html#a5b9cf02d2e0977a25c585fc49611d993">initialize</a>(par_name);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      laplace_problem.<a class="code" href="class_poisson.html#aa225c7dfbf19ab1b669a5a5b8f81b2e3">run</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <a class="code" href="class_linear_elasticity.html">LinearElasticity&lt;2&gt;</a> linear_elasticity_problem;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      linear_elasticity_problem.<a class="code" href="class_linear_elasticity.html#ac4a6be771b84ed0a6647ec8a6fa62ada">initialize</a>(par_name);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      linear_elasticity_problem.<a class="code" href="class_linear_elasticity.html#a5cb58274e1eea79f83b169e1cbf94f20">run</a>();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordflow">catch</span> (std::exception &amp;exc)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
@@ -158,10 +158,11 @@ $(document).ready(function(){initNavTree('main_8cc_source.html',''); initResizab
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
 <div class="ttc" id="aclassLogStream_html_a8028e970ad8388596d625ed463894e98"><div class="ttname"><a href="http://www.dealii.org/developer/doxygen/deal.II/classLogStream.html#a8028e970ad8388596d625ed463894e98">LogStream::depth_console</a></div><div class="ttdeci">unsigned int depth_console(const unsigned int n)</div></div>
 <div class="ttc" id="aclassUtilities_1_1MPI_1_1MPI__InitFinalize_html"><div class="ttname"><a href="http://www.dealii.org/developer/doxygen/deal.II/classUtilities_1_1MPI_1_1MPI__InitFinalize.html">Utilities::MPI::MPI_InitFinalize</a></div></div>
-<div class="ttc" id="aclass_poisson_html"><div class="ttname"><a href="class_poisson.html">Poisson</a></div><div class="ttdef"><b>Definition:</b> <a href="poisson_8h_source.html#l00092">poisson.h:93</a></div></div>
-<div class="ttc" id="aclass_poisson_html_a5b9cf02d2e0977a25c585fc49611d993"><div class="ttname"><a href="class_poisson.html#a5b9cf02d2e0977a25c585fc49611d993">Poisson::initialize</a></div><div class="ttdeci">void initialize(const std::string &amp;filename)</div><div class="ttdef"><b>Definition:</b> <a href="poisson_8cc_source.html#l00101">poisson.cc:101</a></div></div>
-<div class="ttc" id="aclass_poisson_html_aa225c7dfbf19ab1b669a5a5b8f81b2e3"><div class="ttname"><a href="class_poisson.html#aa225c7dfbf19ab1b669a5a5b8f81b2e3">Poisson::run</a></div><div class="ttdeci">void run()</div><div class="ttdef"><b>Definition:</b> <a href="poisson_8cc_source.html#l00565">poisson.cc:565</a></div></div>
+<div class="ttc" id="aclass_linear_elasticity_html"><div class="ttname"><a href="class_linear_elasticity.html">LinearElasticity</a></div><div class="ttdef"><b>Definition:</b> <a href="linear__elasticity_8h_source.html#l00071">linear_elasticity.h:71</a></div></div>
+<div class="ttc" id="aclass_linear_elasticity_html_a5cb58274e1eea79f83b169e1cbf94f20"><div class="ttname"><a href="class_linear_elasticity.html#a5cb58274e1eea79f83b169e1cbf94f20">LinearElasticity::run</a></div><div class="ttdeci">void run()</div><div class="ttdef"><b>Definition:</b> <a href="linear__elasticity_8cc_source.html#l00437">linear_elasticity.cc:437</a></div></div>
+<div class="ttc" id="aclass_linear_elasticity_html_ac4a6be771b84ed0a6647ec8a6fa62ada"><div class="ttname"><a href="class_linear_elasticity.html#ac4a6be771b84ed0a6647ec8a6fa62ada">LinearElasticity::initialize</a></div><div class="ttdeci">void initialize(const std::string &amp;filename)</div><div class="ttdef"><b>Definition:</b> <a href="linear__elasticity_8cc_source.html#l00079">linear_elasticity.cc:79</a></div></div>
 <div class="ttc" id="ainclude_2deal_8II_2base_2utilities_8h_html"><div class="ttname"><a href="http://www.dealii.org/developer/doxygen/deal.II/include_2deal_8II_2base_2utilities_8h.html">utilities.h</a></div></div>
+<div class="ttc" id="alinear__elasticity_8h_html"><div class="ttname"><a href="linear__elasticity_8h.html">linear_elasticity.h</a></div></div>
 <div class="ttc" id="alogstream_8h_html_ac643e79bd992f1a9bd0dca5b9f2859fb"><div class="ttname"><a href="http://www.dealii.org/developer/doxygen/deal.II/logstream_8h.html#ac643e79bd992f1a9bd0dca5b9f2859fb">deallog</a></div><div class="ttdeci">LogStream deallog</div></div>
 <div class="ttc" id="amain_8cc_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="main_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="main_8cc_source.html#l00025">main.cc:25</a></div></div>
 <div class="ttc" id="anamespaceUtilities_1_1MPI_html_a895dcd8223a0ee6f0e6a80b80e2d5982"><div class="ttname"><a href="http://www.dealii.org/developer/doxygen/deal.II/namespaceUtilities_1_1MPI.html#a895dcd8223a0ee6f0e6a80b80e2d5982">Utilities::MPI::this_mpi_process</a></div><div class="ttdeci">unsigned int this_mpi_process(const MPI_Comm &amp;mpi_communicator)</div></div>
@@ -173,7 +174,7 @@ $(document).ready(function(){initNavTree('main_8cc_source.html',''); initResizab
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_aa394cd1d9abb8ffe941d9aaafca8d03.html">github</a></li><li class="navelem"><a class="el" href="dir_c52569aa89a7adbb6029022c2fa60a11.html">workspace</a></li><li class="navelem"><a class="el" href="dir_37bdb9d2191b5493db509660c6a8c15a.html">source</a></li><li class="navelem"><a class="el" href="main_8cc.html">main.cc</a></li>
-    <li class="footer">Generated on Tue May 11 2021 09:07:29 for Theory and Practice of FEM -- a parametrized Poisson Solver by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat Jun 26 2021 16:46:44 for Theory and Practice of FEM -- a parametrized Poisson Solver by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

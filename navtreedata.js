@@ -54,17 +54,18 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"group__constraints.html#ga011e6f24f1225bef56c5411759b765a0",
-"namespaceDoFTools.html#a95b262f765c69eef5fd9d4248562ef0d",
-"namespaceGridTools.html#a995b90803c22dbe67fc6d510494b2e51a0f9bb3e7869273e59af59d0bbba24264",
-"namespaceNonMatching.html#a0799b0e2aa59156a51d167d67afb04dd",
-"namespaceNonMatching.html#a559a1148230409c6947d2100fd952c9b",
-"namespaceNonMatching.html#a9fd75051ac629a977d0065c8d24382f4",
-"namespaceNonMatching.html#aec0ae76381eb4c276cc0df29b31ada36",
-"namespaceUtilities.html#a676dac426776229059424f0d3344e2ec",
-"namespaceVectorTools.html#a05db6c8cebf924b417dd92f525efe3db",
-"namespaceinternal_1_1p4est.html#a60b3575160ba1ba0fdc2d74d63673734"
+"group__Exceptions.html#ga8abd35fedcb8b20a0d0c91388d095a05",
+"class_poisson.html#a5b9cf02d2e0977a25c585fc49611d993",
+"group__constraints.html#gaff48f8eaf46c5618b95eefa23081449e",
+"namespaceDoFTools.html#aed6928cb7bdb5a85e8670d6bd5c90e24",
+"namespaceGridTools.html#a995b90803c22dbe67fc6d510494b2e51ac2be525d2326d9ad0fcf80d119b902bf",
+"namespaceNonMatching.html#a013c3a48ed1cbab8b28d7fec8bf8a8fd",
+"namespaceNonMatching.html#a518b41cc0edaf1fbbb73c393d1dafb53",
+"namespaceNonMatching.html#a98e18eb999d58cf58dedf5a81c523eb6",
+"namespaceNonMatching.html#ae76f0a03103368d5444b0da1533ecfaf",
+"namespaceTrilinosWrappers_1_1internal_1_1LinearOperatorImplementation.html#a8887d4b15a684c70b526f2b7e9a82f30",
+"namespaceinternal.html#a20f9445bbd4f53b81ffc15b973bf0930",
+"namespaceparallel.html#a7ffe536c55823d2dd1f60d12d2ca6afe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

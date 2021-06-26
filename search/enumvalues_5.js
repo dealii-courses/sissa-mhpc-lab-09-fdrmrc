@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['imaginary_5fpart_20855',['imaginary_part',['http://www.dealii.org/developer/doxygen/deal.II/namespaceinternal_1_1DataOutImplementation.html#ad32c0c38e9f7904a1c674b90e6474db9aba130f10aef35cf1c8c7ddc47478b2f9',1,'internal::DataOutImplementation']]],
-  ['interleaved_20856',['interleaved',['http://www.dealii.org/developer/doxygen/deal.II/structinternal_1_1MatrixFreeFunctions_1_1DoFInfo.html#a6369c97edd8ea0d2cd7c028b20ee8f39a5fc70ff0369f56d734047c9507af8623',1,'internal::MatrixFreeFunctions::DoFInfo']]],
-  ['interleaved_5fcontiguous_20857',['interleaved_contiguous',['http://www.dealii.org/developer/doxygen/deal.II/structinternal_1_1MatrixFreeFunctions_1_1DoFInfo.html#a6369c97edd8ea0d2cd7c028b20ee8f39a6a03c5a5755c72ea37b308c011d9808d',1,'internal::MatrixFreeFunctions::DoFInfo']]],
-  ['interleaved_5fcontiguous_5fmixed_5fstrides_20858',['interleaved_contiguous_mixed_strides',['http://www.dealii.org/developer/doxygen/deal.II/structinternal_1_1MatrixFreeFunctions_1_1DoFInfo.html#a6369c97edd8ea0d2cd7c028b20ee8f39ab2def76ca33445e9920e5f67f336920b',1,'internal::MatrixFreeFunctions::DoFInfo']]],
-  ['interleaved_5fcontiguous_5fstrided_20859',['interleaved_contiguous_strided',['http://www.dealii.org/developer/doxygen/deal.II/structinternal_1_1MatrixFreeFunctions_1_1DoFInfo.html#a6369c97edd8ea0d2cd7c028b20ee8f39a215da70e1b01f5bf761278af7b11df64',1,'internal::MatrixFreeFunctions::DoFInfo']]]
+  ['gaussianelimination_21863',['GaussianElimination',['http://www.dealii.org/developer/doxygen/deal.II/structPETScWrappers_1_1PreconditionBoomerAMG_1_1AdditionalData.html#a5d92688a1fdd10088cddaf971b84e987ad29a355c6863a9d059169ef1fe131dcb',1,'PETScWrappers::PreconditionBoomerAMG::AdditionalData']]],
+  ['ghosted_21864',['ghosted',['http://www.dealii.org/developer/doxygen/deal.II/structinternal_1_1MatrixFreeFunctions_1_1FaceSetup.html#aa8e29ddb5aafdd94db26be53c217f2eea4f7b10490f32a913036c1a09e14cc65e',1,'internal::MatrixFreeFunctions::FaceSetup']]],
+  ['go_5fto_5fone_21865',['go_to_one',['http://www.dealii.org/developer/doxygen/deal.II/namespaceMGTransferGlobalCoarseningTools.html#a0b3ae7f7ace3aef7bdcbca73ae07c126a4700af23eb58d665b1bffa9b2d8bd01a',1,'MGTransferGlobalCoarseningTools']]],
+  ['gradient_21866',['gradient',['http://www.dealii.org/developer/doxygen/deal.II/namespaceinternal.html#aa5bef221c94bc6b9c5441c306a72cdbaae2b6dfb8a5c48206992d8310d176c37c',1,'internal']]],
+  ['gradients_21867',['gradients',['http://www.dealii.org/developer/doxygen/deal.II/classMatrixFree.html#a751b5f06534d52773eba384d2c866a15ac2af294b46c59f4ca21a4aac2b2d97b1',1,'MatrixFree']]],
+  ['gradients_5fall_5ffaces_21868',['gradients_all_faces',['http://www.dealii.org/developer/doxygen/deal.II/classMatrixFree.html#a751b5f06534d52773eba384d2c866a15adceeae01fe1b10f8d3202a66d4676915',1,'MatrixFree']]]
 ];
